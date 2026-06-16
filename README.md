@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://tablyne.com/brand/icon.png" width="96" height="96" alt="Tablyne" />
+  <img src="assets/logo.png" width="96" height="96" alt="Tablyne" />
 </p>
 
 <h1 align="center">Tablyne</h1>
