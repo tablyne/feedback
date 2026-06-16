@@ -1,0 +1,45 @@
+name: 🐞 Bug report
+description: Something broken or behaving unexpectedly in Tablyne
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping make Tablyne better!
+        **Do not paste AWS keys, tokens, or real table data** — mask anything sensitive.
+  - type: input
+    id: version
+    attributes:
+      label: Tablyne version
+      placeholder: e.g. 1.2.0 (Help → About)
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS
+        - Windows
+        - Linux
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: A clear description of the bug, plus any error messages.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to '...'
+        2. Click '...'
+        3. See error
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior

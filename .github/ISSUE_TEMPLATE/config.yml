@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📧 Account, billing & private support
+    url: mailto:support@tablyne.com
+    about: For anything you'd rather not post publicly (license, billing, refunds).
+  - name: 🌐 Tablyne website
+    url: https://tablyne.com
+    about: Downloads, pricing, docs and changelog.
