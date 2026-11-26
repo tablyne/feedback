@@ -53,7 +53,6 @@ First launch: on macOS, open Tablyne once, then **System Settings → Privacy & 
 
 ### Package managers
 
-<!-- homebrew
 **macOS, Homebrew**
 
 ```bash
@@ -61,7 +60,6 @@ brew install --cask tablyne/tap/tablyne
 ```
 
 The cask installs the same `.dmg` as the site. Tablyne is not notarized yet, so macOS asks you to confirm the first launch once (Privacy & Security → Open Anyway). Tap: [tablyne/homebrew-tap](https://github.com/tablyne/homebrew-tap).
--->
 
 <!-- winget
 **Windows, winget**
