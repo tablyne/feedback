@@ -2,6 +2,28 @@
 
 All notable changes to Tablyne, newest first. Every release is a beta. Downloads and checksums: [Releases](https://github.com/tablyne/feedback/releases) or <https://tablyne.com/download/>.
 
+## 1.5.2 — 2026-11-26
+
+Tablyne v1.5.2 (beta). A cleaner object tree and sidebar, the same in every database.
+
+### Object tree
+
+- The vertical guide lines are gone. Indentation shows the hierarchy.
+- Counts and actions sit at the right edge of each row. The ⋯ menu takes their place on hover, keyboard focus or selection, so no row keeps empty space for it. Right-click and Shift+F10 still open the menu.
+
+### Sidebar
+
+- Database icons are drawn cleaner and at the same size, with a new PostgreSQL elephant.
+- The database picker and the filter have a thin, subtle border that gets stronger on hover. The active connection shows the selection tone and a thin accent line.
+
+### Structure tab
+
+- Columns, Foreign keys, Indexes and the other views use the same tabs as the rest of the app: no box around the active one, and one style for counts. In narrow windows, inactive tabs show only the icon and the count, with the name in the tooltip.
+
+### Console
+
+- "Loading draft…" no longer flashes when you open the console.
+
 ## 1.5.1 — 2026-11-25
 
 Tablyne v1.5.1 (beta). Safe mode no longer gets in the way, and an open transaction is always visible in the console.
