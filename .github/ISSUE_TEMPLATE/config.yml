@@ -1,8 +1,14 @@
 blank_issues_enabled: false
 contact_links:
+  - name: 💡 Ideas & questions
+    url: https://github.com/tablyne/feedback/discussions
+    about: Feature ideas, a database you'd like supported, how-to questions and general feedback go to Discussions.
+  - name: 🔒 Security
+    url: https://github.com/tablyne/feedback/blob/main/SECURITY.md
+    about: Report a vulnerability by email (support@tablyne.com). Please do not open a public issue for it.
   - name: 📧 Account, billing & private support
     url: mailto:support@tablyne.com
     about: For anything you'd rather not post publicly (license, billing, refunds).
-  - name: 🌐 Tablyne website
-    url: https://tablyne.com
-    about: Downloads, pricing, docs and changelog.
+  - name: 🌐 Download Tablyne
+    url: https://tablyne.com/download/
+    about: The official download page.

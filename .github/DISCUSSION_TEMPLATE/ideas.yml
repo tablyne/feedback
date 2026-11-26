@@ -1,0 +1,31 @@
+title: "[Idea] "
+labels: ["idea"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what would make Tablyne better for you, or which database you'd like it to support. Search the
+        existing ideas first and add your vote or details there. A bug belongs in
+        [Issues](https://github.com/tablyne/feedback/issues/new/choose).
+
+        **Never paste secrets**: passwords, connection strings, cloud keys, tokens or real data.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The situation or problem, not the solution. Which database, if it matters.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+      description: How you'd like it to work. Mockups and screenshots are welcome.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: What do you do today instead? (optional)
+    validations:
+      required: false
