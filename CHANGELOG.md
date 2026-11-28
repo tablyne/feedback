@@ -2,6 +2,21 @@
 
 All notable changes to Tablyne, newest first. Every release is a beta. Downloads and checksums: [Releases](https://github.com/tablyne/feedback/releases) or <https://tablyne.com/download/>.
 
+## 1.5.3 — 2026-11-28
+
+Tablyne v1.5.3 (beta). Ready for the Microsoft Store.
+
+### Windows
+
+- Tablyne now ships as a Microsoft Store package too. The Store signs it, so Windows installs it without the SmartScreen or Smart App Control prompts.
+- When installed from the Store, Tablyne leaves updates to the Store. Settings and About say so, and the built-in updater stays out of the way.
+- The Store version opens tablyne:// license links from the purchase email, opens .sqlite, .sqlite3 and .db3 files, and keeps the MCP bridge path stable across updates.
+- The Store version shows the Tablyne icon sharp on the taskbar and in the Start menu, at every size and without a colored plate behind it.
+
+### Interface
+
+- Database icons are back to the look they had before 1.5.2.
+
 ## 1.5.2 — 2026-11-26
 
 Tablyne v1.5.2 (beta). A cleaner object tree and sidebar, the same in every database.
